@@ -5,6 +5,9 @@
 
 The gwt-footer is a footer script generator for the Government Website Template (GWT). The main purpose of a footer generator is to provide a uniform look and feel and to comply with the guidelines on the standard footer. The footer generator automatically retrieves the updated version of html codes of the footer template to ensure that the contents and the links are up to date. We recommend the use of the footer script for websites using static html.
 
+### Future Updates
+- Remove the CDN hosting from code.google.com to a separate CDN server
+
 ### How to add footer generator
 To add the footer generator on your template, simply add this syntax to the lowest part of your template.
 
