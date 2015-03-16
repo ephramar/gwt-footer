@@ -19,7 +19,7 @@ To add the footer generator on your template, simply add this syntax to the lowe
       var js, gjs = d.getElementById('gwt-standard-footer');
 
       js = d.createElement(s); js.id = id;
-      js.src = "http://gwt-footer.googlecode.com/git/footer.js";
+      js.src = "//cdn.i.gov.ph/gwt-footer/footer.js";
       gjs.parentNode.insertBefore(js, gjs);
 
     }(document, 'script', 'gwt-footer-jsdk'));
@@ -46,3 +46,5 @@ For support, comments, and suggestions, and if you find any bugs, please email u
 **10-29-2014**
 - release to Stable version
 
+**03-16-2015**
+- migrated the the source to cdn.i.gov.ph
