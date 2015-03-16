@@ -4,7 +4,18 @@
 </head>
 <body>
 	<h1>Footer Generator</h1>
+<pre>
+&lt;div id="gwt-standard-footer"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+(function(d, s, id) {
+	var js, gjs = d.getElementById('gwt-standard-footer');
 
+	js = d.createElement(s); js.id = id;
+	js.src = "//cdn.i.gov.ph/gwt-footer/footer.js";
+	gjs.parentNode.insertBefore(js, gjs);
+}(document, 'script', 'gwt-footer-jsdk'));
+&lt;/script&gt;
+</pre>
 	<div id="gwt-standard-footer">
 	</div>
 	<!--
@@ -15,7 +26,7 @@
       var js, gjs = d.getElementById('gwt-standard-footer');
 
       js = d.createElement(s); js.id = id;
-      js.src = "//gwt-footer.googlecode.com/git/footer.js";
+      js.src = "//cdn.i.gov.ph/gwt-footer/footer.js";
       gjs.parentNode.insertBefore(js, gjs);
 
     }(document, 'script', 'gwt-footer-jsdk'));
