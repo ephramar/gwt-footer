@@ -2,13 +2,13 @@
 **Authored by: Voltz Jeturian voltz.jeturian@icto.dost.gov.ph**
 
 ## IMPORTANT ANNOUNCEMENT
-Please be informed that the footer.js hosted in the code.google.com will be migrating to cdn.i.gov.ph as code.google.com will no longer be available in the near future. Please see this link for more details: http://google-opensource.blogspot.com/2015/03/farewell-to-google-code.html. In this case, we are **enforcing** every website that uses the GWT-footer script to modify the script. For those who are using GWT on the recommended CMS (Wordpress, Joomla, Drupal), we will be releasing a new version of the template for your website's use.
+Please be informed that the footer.js hosted at **code.google.com** will **no longer be available** in the near future. Please see this link for more details: http://google-opensource.blogspot.com/2015/03/farewell-to-google-code.html. In this case, the code will be migrated to cdn.i.gov.ph. **Every website** that uses the GWT-footer are **enforced** to modify the script. For those who are using GWT for the recommended CMS (Wordpress, Joomla, Drupal), we will be releasing a new version of the template for your website's use.
 
-### Modify this line:
+**Modify this line:**
 ```
 js.src = "http://gwt-footer.googlecode.com/git/footer.js";
 ```
-### to this line:
+**To this line:**
 ```
 js.src = "//cdn.i.gov.ph/gwt-footer/footer.js";
 ```
