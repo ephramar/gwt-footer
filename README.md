@@ -2,7 +2,7 @@
 **Authored by: Voltz Jeturian voltz.jeturian@icto.dost.gov.ph**
 
 ## ANNOUNCEMENT
-Please be informed that the footer.js hosted at **code.google.com** will **no longer be available** in the near future. Please see this link for more details: http://google-opensource.blogspot.com/2015/03/farewell-to-google-code.html. In this case, the code will be migrated to cdn.i.gov.ph. **Every website** that uses the GWT-footer are **urging** to modify the script. For those who are using GWT for the recommended CMS (Wordpress, Joomla, Drupal), we will be releasing a new version of the template for your website's use.
+Please be informed that the footer.js hosted at **code.google.com** will **no longer be available** in the near future. Please see this link for more details: http://google-opensource.blogspot.com/2015/03/farewell-to-google-code.html. In this case, the code will be migrated to cdn.i.gov.ph. **Every website** that uses the GWT-footer are **urged** to modify the script. For those who are using GWT for the recommended CMS (Wordpress, Joomla, Drupal), we will be releasing a new version of the template for your website's use.
 
 >**Modify this line:**
 >```
