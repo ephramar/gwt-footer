@@ -21,20 +21,17 @@ The gwt-footer is a footer script generator for the Government Website Template 
 To add the footer generator on your template, simply add this syntax after the agency footer region and before the closing &lt;body&gt; tag.
 
 ```
-<div id="gwt-standard-footer">
-</div>
+<div id="gwt-standard-footer"></div>
 <script type="text/javascript">
-    (function(d, s, id) {
-      var js, gjs = d.getElementById('gwt-standard-footer');
+(function(d, s, id) {
+  var js, gjs = d.getElementById('gwt-standard-footer');
 
-      js = d.createElement(s); js.id = id;
-      js.src = "//cdn.i.gov.ph/gwt-footer/footer.js";
-      gjs.parentNode.insertBefore(js, gjs);
-
-    }(document, 'script', 'gwt-footer-jsdk'));
+	js = d.createElement(s); js.id = id;
+	js.src = "//cdn.i.gov.ph/gwt-footer/footer.js";
+	gjs.parentNode.insertBefore(js, gjs);
+}(document, 'script', 'gwt-footer-jsdk'));
 </script>
 ```
-**Note:** Please remove the old standard footer region and replace it with the footer script with "gwt-standard-footer" container.
 
 For support, comments, and suggestions, and if you find any bugs, please email us at gwtsupport@i.gov.ph.
 
