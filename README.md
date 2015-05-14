@@ -33,7 +33,10 @@ To add the footer generator on your template, simply add this syntax after the a
 </script>
 ```
 
-For support, comments, and suggestions, and if you find any bugs, please email us at gwtsupport@i.gov.ph.
+### Known Bugs
+- footer.js not loading in https connection - **Submitted by: slmartinez@pup.edu.ph**
+
+For support, comments, and suggestions, and if you find any bugs, please email us at helpdesk@i.gov.ph.
 
 ###### CHANGE LOGS
 **06-25-2014**
