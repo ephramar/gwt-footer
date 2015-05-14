@@ -34,7 +34,7 @@ To add the footer generator on your template, simply add this syntax after the a
 ```
 
 ### Known Bugs
-- footer.js not loading in https connection - **Submitted by: slmartinez@pup.edu.ph**
+- footer.js not loading in https connection
 
 For support, comments, and suggestions, and if you find any bugs, please email us at helpdesk@i.gov.ph.
 
@@ -57,3 +57,6 @@ For support, comments, and suggestions, and if you find any bugs, please email u
 
 **03-16-2015**
 - migrated the the source to cdn.i.gov.ph
+
+**05-14-2015**
+- replaced the "http://" static content into "//" to fix the https not loading issue.
