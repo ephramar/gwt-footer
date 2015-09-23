@@ -1,19 +1,7 @@
 # Goverment Website Template (GWT) footer script generator
 **Authored by: Voltz Jeturian voltz.jeturian@icto.dost.gov.ph**
 
-## ANNOUNCEMENT
-Please be informed that the footer.js hosted at **code.google.com** will **no longer be available** in the near future. Please see this link for more details: http://google-opensource.blogspot.com/2015/03/farewell-to-google-code.html. In this case, the code will be migrated to cdn.i.gov.ph. **Every website** that uses the GWT-footer are **urged** to modify the script. For those who are using GWT for the recommended CMS (Wordpress, Joomla, Drupal), we will be releasing a new version of the template for your website's use.
-
->**Modify this line:**
->```
->js.src = "http://gwt-footer.googlecode.com/git/footer.js";
->```
->**To this line:**
->```
->js.src = "//cdn.i.gov.ph/gwt-footer/footer.js";
->```
-
-#### v1-stable
+#### v1.1-stable
 
 The gwt-footer is a footer script generator for the Government Website Template (GWT). The main purpose of a footer generator is to provide a uniform look and feel and to comply with the guidelines on the standard footer. The footer generator automatically retrieves the updated version of html codes of the footer template to ensure that the contents and the links are up to date. We recommend the use of the footer script for **websites using static html** and **custom applications**. Those who are using the GWT for the recommended CMS will automatically use the gwt-footer script.
 
@@ -24,10 +12,10 @@ To add the footer generator on your template, simply add this syntax after the a
 <div id="gwt-standard-footer"></div>
 <script type="text/javascript">
 (function(d, s, id) {
-  var js, gjs = d.getElementById('gwt-standard-footer');
+	var js, gjs = d.getElementById('gwt-standard-footer');
 
 	js = d.createElement(s); js.id = id;
-	js.src = "//cdn.i.gov.ph/gwt-footer/footer.js";
+	js.src = "//igovphil.github.io/gwt-footer/footer.js";
 	gjs.parentNode.insertBefore(js, gjs);
 }(document, 'script', 'gwt-footer-jsdk'));
 </script>
