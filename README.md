@@ -15,14 +15,14 @@ To add the footer generator on your template, simply add this syntax after the a
 	var js, gjs = d.getElementById('gwt-standard-footer');
 
 	js = d.createElement(s); js.id = id;
-	js.src = "//igovphil.github.io/gwt-footer/footer.js";
+	js.src = "//gwhs.i.gov.ph/gwt-footer/footer.js";
 	gjs.parentNode.insertBefore(js, gjs);
 }(document, 'script', 'gwt-footer-jsdk'));
 </script>
 ```
 
 ### Known Bugs
-- footer.js not loading in https connection
+- selection id 'gwt-footer-jsdk' may possibly changed on embed, add dynamic id selection
 
 For support, comments, and suggestions, and if you find any bugs, please email us at helpdesk@i.gov.ph.
 
@@ -48,3 +48,6 @@ For support, comments, and suggestions, and if you find any bugs, please email u
 
 **05-14-2015**
 - replaced the "http://" static content into "//" to fix the https not loading issue.
+
+**03-17-2016**
+- moved hosting of gwt-footer to gwhs.i.gov.ph/gwt-footer
